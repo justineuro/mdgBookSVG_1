@@ -8,7 +8,7 @@ To download an example of a generated book, simply right-click (then "Save Link 
 
 [![Front Cover](./mdgBookSVGv1-tit-125.jpg)](./res/mdgBookSVGv1.pdf)
 
-(**Note**: To enable the MIDI audio links in the book, download [mdgBookSVG_1-midi.zip](./mdgBookSVG_1-midi.zip) and unzip on the same directory in your computer that contains the book, i.e., the book and midi files have to be in the same directory).
+(**Note**: To enable the MIDI audio links in the book, download [mdgBookSVG_1-midi.zip](./mdgBookSVG_1-midi.zip) and unzip in the same directory in your computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
 Alternatively, you may download or clone this project and access the book (and `midi` files, among others) from the `res` folder.
 
