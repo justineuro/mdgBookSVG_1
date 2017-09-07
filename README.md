@@ -10,7 +10,7 @@ To download an example of a generated book, simply right-click (then "Save Link 
 
 (**Note**: To enable the MIDI audio links in the book, download [mdgBookSVG_1-midi.zip](./mdgBookSVG_1-midi.zip) and unzip in the same directory in your computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
-Alternatively, you may download or clone this project and access the book (and `midi` files, among others) from the `res` folder.
+Alternatively, you may [download](https://github.com/justineuro/mdgBookSVG_1/archive/master.zip) or [clone](https://github.com/justineuro/mdgBookSVG_1.git) this project and access the book (and `midi` files, among others) from the [`res`](./res) folder.
 
 ## Related Sites
 - [Mozart](https://marian-aldenhoevel.de/mozart/) - A site maintained by Marian Aldenh&ouml;vel allows the visitor to generate a MDG (user-specified or randomly-generated) and the corresponding audio (<tt> midi</tt>, <tt>wav</tt>) and image files (<tt>pdf</tt>, <tt>png</tt>) based on *Musikalisches W&uuml;rferspiel, K. 516f*.
