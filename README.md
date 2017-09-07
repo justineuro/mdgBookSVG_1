@@ -4,7 +4,7 @@
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) minuets, generated based on the rules given in  [*Musikalisches Würfelspiel, K.516f* (Mozart, Wolfgang Amadeus)](http://imslp.org/wiki/Musikalisches_W%C3%BCrfelspiel,_K.516f_(Mozart,_Wolfgang_Amadeus)). 
 
-To download an exmaple of a generated book, simply click on the following image: [![Front Cover](./mdgBookSVGv1-tit-125.jpg)](./res/mdgBookSVGv1.pdf)
+To download an example of a generated book, simply right-click (then "Save Link As ...") on the following image: [![Front Cover](./mdgBookSVGv1-tit-125.jpg)](./res/mdgBookSVGv1.pdf)
 
 ## Related Sites
 - [Mozart](https://marian-aldenhoevel.de/mozart/) - A site maintained by Marian Aldenh&ouml;vel allows the visitor to generate a MDG (user-specified or randomly-generated) and the corresponding audio (<tt> midi</tt>, <tt>wav</tt>) and image files (<tt>pdf</tt>, <tt>png</tt>) based on *Musikalisches W&uuml;rferspiel, K. 516f*.
