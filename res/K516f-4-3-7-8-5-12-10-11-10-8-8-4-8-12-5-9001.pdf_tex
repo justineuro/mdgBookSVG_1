@@ -1,0 +1,64 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'K516f-4-3-7-8-5-12-10-11-10-8-8-4-8-12-5-9001.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{605.67998047bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39379213)%
+    \put(0,0){\includegraphics[width=\unitlength]{K516f-4-3-7-8-5-12-10-11-10-8-8-4-8-12-5-9001.pdf}}%
+    \put(0.50025134,0.36859863){\makebox(0,0)[b]{\smash{4-3-7-8-5-12-10-11-10-8-8-4-8-12-5-9}}}%
+    \put(0.50025134,0.34592448){\makebox(0,0)[b]{\smash{\footnotesize \tt K.516f::69:06:27:53:161:37:62:33:65:155:57:132:43:124:52:111::}}}%
+    \put(0.50025134,0.32416646){\makebox(0,0)[b]{\smash{\footnotesize \tt Perm. No.: 136731770644197}}}%
+    \put(0.09303273,0.29416328){\makebox(0,0)[lb]{\smash{\footnotesize = 111}}}%
+    \put(0.86842006,0.29370522){\makebox(0,0)[lb]{\smash{\footnotesize 1}}}%
+    \put(0.04814249,0.25007465){\makebox(0,0)[b]{\smash{8}}}%
+    \put(0.04814249,0.26381656){\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.04814249,0.18365542){\makebox(0,0)[b]{\smash{8}}}%
+    \put(0.04814249,0.19739733){\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.05444087,0.14138759){\makebox(0,0)[lb]{\smash{\footnotesize 2}}}%
+  \end{picture}%
+\endgroup%

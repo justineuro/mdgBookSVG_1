@@ -1,0 +1,71 @@
+# Create work folder (e.g., `mdgBookSVG_1`) and three sub-folders: `bin`, `images`, `res`
+#	`bin` - folder for Bash files: mdg2mid-svg.sh, mdg2minRndN-svg.sh, entriesSVG.sh
+#	`images` - folder for image files for book cover/title page: 1.png, FrontCover.pdf
+# 	`res` - folder for ABC, SVG, PDF output files; initially contains: 
+#		12TAB.pdf - crosstable for two-dice outcome vs. measure number of minuet 
+		abcmdg-k516f.pdf - table of measures 
+		hyperref.cfg - file containing the \hypersetup{} keyvalues for the \hyperref pkg
+		mdg1.bib - bibliography file for the book
+		mdgBookSVGv1.tex - main LaTeX file for book 
+		mdgBookSVGv1-cover.tex - LaTeX file for cover page
+
+# Change directory res folder then, for each  Bash file in `bin`, create a link 
+# from `bib` to `res`
+	
+	cd /path/to/mdgBookSVG_1/res
+	ln -s ../bin/*.sh . 
+
+# Within `res` directory, generate nnn MDGs (nnn is number of MDG minuets in book to be created)
+# For 250 minuets to be generated: nnn=250.
+
+	./mdg2midRndN-svg.sh nnn 
+
+# Generate a list of SVGs created by the previous step:
+
+	ls --color=never K516f*.svg > svgList.txt
+
+# Create a list of figure entries for LaTeX file; *.pdf_tex files are also created using inkscape
+
+	./mdgEntriesSVG.sh
+	List of svg files?
+	svgList.txt	# when prompted for list of svg files answer: svgList.txt 
+
+# Change the font sizes of titles, subtitles, repeat signs in each K516f*.pdf_tex file
+
+	sed -i 's/\\smash{K\.516/\\smash{\\footnotesize \\tt K\.516/g' *.pdf_tex
+	sed -i 's/\\smash{Perm/\\smash{\\footnotesize \\tt Perm/g' *.pdf_tex
+	sed -i 's/\\smash{1}/\\smash{\\footnotesize 1}/g' *.pdf_tex
+	sed -i 's/\\smash{2}/\\smash{\\footnotesize 2}/g' *.pdf_tex
+	sed -i 's/\\smash{tr}/\\smash{\\em tr}/g' *.pdf_tex
+	sed -i 's/\\smash{= 111}/\\smash{\\footnotesize = 111}/g' *.pdf_tex
+
+# Move svgList.txt.output to svgList.tex
+
+	cp svgList.txt.output svgList.tex
+
+# Remove trailing `001` from each svgList.tex entry 
+
+	sed -i.OLD 's/001}/}/g' svgList.tex
+	sed -i.OLD 's/001.mid}/.mid}/g' svgList.tex
+
+# Create the abcmdg-k516f.pdf (table of measures) SVGs; aslo *pdf_tex files using inkscape
+
+	abcm2ps -v -O= abcmdg-k516f.abc
+	inkscape -D -z --file=abcmdg-k516f001.svg --export-pdf=abcmdg-k516f001.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f002.svg --export-pdf=abcmdg-k516f002.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f003.svg --export-pdf=abcmdg-k516f003.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f004.svg --export-pdf=abcmdg-k516f004.pdf --export-latex
+
+# * edit lines 53, 54 of abcmdg-k516f001.pdf_tex:
+#	- line 53: change ü (umlaut u) to \"{u} in Würferspiel
+#	- line 54: add escapes ("\") before "%" (2x) and "_" (5x); and \url{---}for URL
+#	- add "\em" before every "tr" (symbol for trill ornament)  
+	
+	sed -i.OLD 's/\\smash{tr}/\\smash{\\em tr}/g' abcmdg-k516f00*.pdf_tex 
+
+# Generate the PDF
+
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGv1.tex
+	bibtex mdgBookSVGv1.aux
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGv1.tex
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGv1.tex

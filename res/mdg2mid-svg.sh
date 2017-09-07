@@ -1,0 +1,1 @@
+../bin/mdg2mid-svg.sh
