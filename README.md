@@ -34,7 +34,7 @@ My sincerest gratitude to Chris Walshaw et al. for the [ABC music notation](http
      href="https://github.com/justineuro/mdgBookSVG_1">
     <span property="dct:title"><a href="mailto:justineuro@gmail.com">Justine Leon A. Uro</a></span></a>
   has waived all copyright and related or neighboring rights to
-  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVGv_1">mdgBookSVGv_1</a></span>.
+  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVGv_1">mdgBookSVG_1</a></span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
       content="PH" about="https://github.com/justineuro/mdgBookSVGv_1">
