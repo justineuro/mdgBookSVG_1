@@ -60,7 +60,12 @@
 #	- line 53: change ü (umlaut u) to \"{u} in Würferspiel
 #	- line 54: add escapes ("\") before "%" and "_" for URL 
 #	- add "\em" before every "tr" (symbol for trill ornament)  
-	
+
+	sed -i.OLD 's/ü/\\"{u}/g' abcmdg-k516f001.pdf_tex 
+	sed -i.OLD '/http/s/_/\\_/g' abcmdg-k516f001.pdf_tex
+	sed -i.OLD '/http/s/%/\\%/g' abcmdg-k516f001.pdf_tex
+	sed -i.OLD 's/Source: http/Source: \\url{http/g' abcmdg-k516f001.pdf_tex
+	sed -i.OLD 's/Amadeus)\]/Amadeus)}\]/g' abcmdg-k516f001.pdf_tex
 	sed -i.OLD 's/\\smash{tr}/\\smash{\\em tr}/g' abcmdg-k516f00*.pdf_tex 
 
 # Generate the PDF
