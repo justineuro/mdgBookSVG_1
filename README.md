@@ -8,7 +8,9 @@ To download an example of a generated book, simply right-click (then "Save Link 
 
 [![Front Cover](./mdgBookSVGv1-tit-125.jpg)](./res/mdgBookSVGv1.pdf)
 
-(**Note**: To enable the MIDI audio links in the book, download [mdgBookSVG_1-midi.zip](./mdgBookSVG_1-midi.zip) and unzip in the same directory in your computer that contains the book, i.e., the book and midi files have to be in the same directory).
+(**Note**: To enable the MIDI audio links in the book, download 
+[mdgBookSVG_1-midi.zip](./mdgBookSVG_1-midi.zip) and unzip in that directory (of your computer) that contains the book, i.e., the book and 
+midi files have to be in the same directory).
 
 Alternatively, you may [download](https://github.com/justineuro/mdgBookSVG_1/archive/master.zip) or [clone](https://github.com/justineuro/mdgBookSVG_1.git) this project and access the book (and `midi` files, among others) from the [`res`](./res) folder.
 
@@ -34,7 +36,7 @@ My sincerest gratitude to Chris Walshaw et al. for the [ABC music notation](http
      href="https://github.com/justineuro/mdgBookSVG_1">
     <span property="dct:title"><a href="mailto:justineuro@gmail.com">Justine Leon A. Uro</a></span></a>
   has waived all copyright and related or neighboring rights to
-  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVGv_1">mdgBookSVG_1</a></span>.
+  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVG_1">mdgBookSVG_1</a></span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
       content="PH" about="https://github.com/justineuro/mdgBookSVGv_1">
