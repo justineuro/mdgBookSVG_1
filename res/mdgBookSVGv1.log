@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.9)  7 SEP 2017 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.9)  10 SEP 2017 15:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -485,17 +485,7 @@ File: abcmdg-k516f004.pdf Graphic file (type pdf)
 <use abcmdg-k516f004.pdf>
 Package pdftex.def Info: abcmdg-k516f004.pdf used on input line 52.
 (pdftex.def)             Requested size: 458.01398pt x 545.59286pt.
-) [12 <./abcmdg-k516f004.pdf>]
-
-LaTeX Warning: Command \textcopyright invalid in math mode on input line 234.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 234.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 234.
-
-[13] (./svgList.tex
+) [12 <./abcmdg-k516f004.pdf>] [13] (./svgList.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1.
@@ -3517,10 +3507,9 @@ Package pdftex.def Info: K516f-9-9-9-8-4-8-6-6-11-3-9-8-8-10-2-5001.pdf used on
  input line 52.
 (pdftex.def)             Requested size: 469.75499pt x 183.90681pt.
 ))
-Overfull \hbox (18.96576pt too wide) in paragraph at lines 267--268
+Overfull \hbox (10.93802pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/n/10 This work by Iam The Au-thor, based on work of J.L.A. Uro at []
-[]$\OT1/cmtt/m/n/10 https : / / github . com / justineuro / mdgBookSVGv1$[][]\O
-T1/cmr/m/n/10 ,
+[]$\OT1/cmtt/m/n/10 https : / / github . com / justineuro / mdgBookSVG _
  []
 
 (./mdgBookSVGv1.bbl (./mdgBookSVGv1.brf)
@@ -3528,22 +3517,22 @@ T1/cmr/m/n/10 ,
 \openout5 = `mdgBookSVGv1.brf'.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
  [97 <./K516f-9-8-8-7-10-12-9-12-5-10-5-9-3-5-9-3001.pdf> <./K516f-9-9-9-8-4-8-
 6-6-11-3-9-8-8-10-2-5001.pdf
 
 pdfTeX warning: pdflatex (file ./K516f-9-9-9-8-4-8-6-6-11-3-9-8-8-10-2-5001.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./mdgBookSVGv1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `mdgBookSVGv1.out' has not changed.
 (rerunfilecheck)             Checksum: 344FC0448087257FE24A7ABE0A6487AD;22983.
 Package rerunfilecheck Info: File `mdgBookSVGv1.brf' has not changed.
 (rerunfilecheck)             Checksum: 654CF3E022BEA82ED1C656953D726C3C;91.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  )
 (\end occurred inside a group at level 1)
 
@@ -3552,11 +3541,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
 Here is how much of TeX's memory you used:
  11077 strings out of 493126
  232254 string characters out of 6136026
- 264188 words of memory out of 5000000
+ 264191 words of memory out of 5000000
  13302 multiletter control sequences out of 15000+600000
  14262 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,14n,98p,2837b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,98p,2842b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
@@ -3574,10 +3563,10 @@ usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on mdgBookSVGv1.pdf (98 pages, 5605585 bytes).
+Output written on mdgBookSVGv1.pdf (98 pages, 5605973 bytes).
 PDF statistics:
- 2852 PDF objects out of 2984 (max. 8388607)
- 2435 compressed objects within 25 object streams
+ 2853 PDF objects out of 2984 (max. 8388607)
+ 2436 compressed objects within 25 object streams
  368 named destinations out of 1000 (max. 500000)
  3408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
