@@ -1,6 +1,6 @@
 % File name: mdgBooSVGV1-title.tex
 % Purpose: Book Cover
-% InstructionL Should be \input{.} just after \begin{document}
+% Instruction: Should be \input{.} just after \begin{document}
 {
 \topmargin 0.00in
 \oddsidemargin 0.45in
@@ -15,22 +15,22 @@
 \color{blue!22!black}
 \put(-105,85){\line(1,0){6477}}
 \put(-105,-612){\includegraphics[clip=true,trim=0.00in 0.65in 0.25in 1.525in, height=11.75in,width=8.60in,keepaspectratio]%
-	{../images/FrontCover}}
+	{\theBookFrontCover}}
 \put(-105,-645){\line(1,0){6477}}
 \end{picture}
 
 \vspace{-1.50in}
 
 \begin{center}
-	\LARGE\textbf{\color{white} Wonders of the Musical World Series}
+	\LARGE\textbf{\color{white} \theBookSeries}
 \end{center}
 
 \vspace*{2.5\baselineskip}
-\begin{center} \Huge\textbf{\color{LightGoldenrod!1!Gold}\em Musical Dice Games Minuets \volNumber}
+\begin{center} \Huge\textbf{\color{LightGoldenrod!1!Gold}\em \mdgBookTitle}
 \end{center}
 
 \begin{center}
-	\Large\textbf{\color{LightGoldenrod!1!Gold}\em based on  Musikalisches W\"{u}rfelspiel K.\ 516f (1787)}
+	\Large\textbf{\color{LightGoldenrod!1!Gold}\em \mdgBookSubTitle}
 \end{center}
 
 \begin{center}
@@ -39,7 +39,7 @@
 
 \vfill
 \begin{center}
-	\LARGE\textbf{\color{white}\em Libre Edition Press \\ \vspace{-0.25in}}
+	\LARGE\textbf{\color{white}\em \theBookPublisher \\ \vspace{-0.25in}}
 \end{center}
 \end{titlepage}
 }

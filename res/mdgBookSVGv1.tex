@@ -35,8 +35,14 @@
 	\def\authorName{I Am The Author}
 	\def\authorFirstMidNameInit{I.\ T.\ }
 	\def\authorLastName{Author}
-	\def\dateGenerated{29 August 2017}
+	\def\dateGenerated{\today}
 	\def\volNumber{I}
+	\def\mdgBookTitle{Musical Dice Game Minuets \volNumber}
+	\def\mdgBookSubTitle{Musikalisches W\"{u}rfelspiel, K.\ 516f (1787)}
+	\def\theBookSeries{Wonders of the Musical World}
+	\def\theBookPublisher{Libre Edition Press}
+	\def\theBookPublisherLogo{../images/1.png}
+	\def\theBookFrontCover{../images/FrontCover.pdf}
 %%%-------------------------------------------
 %%%
 
@@ -53,7 +59,7 @@
 
 \setcitestyle{authoryear,round,comma,aysep={,},yysep={,},notesep={, }}
 
-\title{\textsc{Musical Dice Games Minuets \volNumber}}
+\title{\textsc{\mdgBookTitle}}
 \author{\textsc{\authorFirstMidNameInit \authorLastName}}
 \date{\textsc{\dateGenerated}}
 % -----
@@ -66,47 +72,47 @@
 \newpage
 % Title Page
 {
-	${}_{}$\\
-	\vspace{1.00in}	
-	\thispagestyle{empty}
-	\begin{center}
-		\HRule \\[0.4cm]
-		{ \huge \bfseries Musical Dice Games Minuets \volNumber} \\[0.2cm]
-		{\large based on {\em Musikalisches W\"{u}rfelspiel, K.\ 516f (1787)} }\\[0.2cm]
-		\HRule \\[1.5cm]
-		% Author and supervisor
-		\begin{minipage}{0.4\textwidth}
-			\begin{flushleft} \large
-				\emph{Author:}\\
-				\authorFirstMidNameInit \textsc{\authorLastName}
-			\end{flushleft}
-		\end{minipage}
-		\begin{minipage}{0.4\textwidth}
-			\begin{flushright} \large
-				\emph{Supervisor:} \\
-				Dr. Communio \textsc{Sanctorum}
-			\end{flushright}
-		\end{minipage}
-		\vfill
-		% Bottom of the page
-		{\textsc{\Large Wonders of the Musical World Series}}  \\[0.2cm] 
-		\includegraphics*[width=0.15\linewidth]{../images/1.png}\\ 
-		{\large Libre Edition Press \\
-		         \dateGenerated }\\
-		\vspace{2.50in}
-	\end{center}
-	\newpage
-	
-	%\maketitle
-	
-	\tableofcontents\label{tabofcon}
-	
-	%\extrafloats{182}
+${}_{}$\\
+\vspace{1.00in}	
+\thispagestyle{empty}
+\begin{center}
+	\HRule \\[0.4cm]
+	{\huge \bfseries \mdgBookTitle} \\[0.2cm]
+	{\large based on {\em \mdgBookSubTitle} }\\[0.2cm]
+	\HRule \\[1.5cm]
+	% Author and supervisor
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft} \large
+			\emph{Author:}\\
+			\authorFirstMidNameInit \textsc{\authorLastName}
+		\end{flushleft}
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright} \large
+			\emph{Supervisor:} \\
+			Dr. Communio \textsc{Sanctorum}
+		\end{flushright}
+	\end{minipage}
+	\vfill
+	% Bottom of the page
+	{\textsc{\Large \theBookSeries}}  \\[0.2cm] 
+	\includegraphics*[width=0.15\linewidth]{\theBookPublisherLogo}\\ 
+	{\large \theBookPublisher \\
+       \dateGenerated }\\
+	\vspace{2.50in}
+\end{center}
+\newpage
+
+%\maketitle		% uncomment if no Front Cover
+
+\tableofcontents\label{tabofcon}
+
+%\extrafloats{182}
 
 \section[Introduction]{Introduction\footnote{The information contained in the introduction were culled from the following online resources:
 	\citet{wiki_mw2017},
 	\url{https://opus-infinity.org/}, and 
-	\hyperref{https://www.sciencenews.org/article/mozarts-melody-machine-0}{}{}{Mozart's Melody Machine} \citep*{peterson2001}
+	\href{https://www.sciencenews.org/article/mozarts-melody-machine-0}{Mozart's Melody Machine} \citep*{peterson2001}
 	}
 }
 	\begin{center}
@@ -136,7 +142,7 @@
 	\end{minipage}
 	\end{center}
 
-Thus run the German title and its English translation of the most well-known of Musical Dice Games (MDG).  Rightly and interestingly so, as the Instructions provided in the published work allow a non-professional musician to generate (``compose") as nearly as 398 trillions of MDG minuets (more precisely, $11^{14} = 397,749,833,583,241$).\\  
+Thus run the German title and its English translation of the most well-known of Musical Dice Games (MDG).  Rightly and interestingly so, as the Instructions provided in the published work allow a non-professional musician to generate (``compose") as nearly as 760 trillions of MDG minuets (more precisely, $11^{14}*2 = 759,499,667,166,482$; see explanation in Subsection ~\ref{tableFind}).\\  
 
 A {\it Musikalisches W\"{u}rfelspiel} (German for ``musical dice game" or MDG) is a system for randomly ``generating" (e.g., by using a die or two dice) musical compositions from precomposed options and was quite popular throughout Western Europe in the 18th century.  The earliest known MDG is Johann Philipp Kirnberger's {\em Der allezeit fertige Menuetten und Polonaisencomponist (1st ed.\ 1757; rev.\ 2nd ed.\ 1783)} (translated from German as ``The Ever-Ready Minuet and Polonaise Composer").  Other well-known composers that are to known to have composed a MDG are C.P.E.\ Bach ({\em Einfall, einen doppelten Contrapunct in der Octave von sechs Tacten zu machen, ohne die Regeln davon zu wissen (1758)}; translated from German as ``A method for making six bars of double counterpoint at the octave without knowing the rules") and Abb\'{e} Maximillian Stadler ({\em Table pour composer des minuets et des Trios \`{a} la infinie; avec deux dez \`{a} jouer (1780)}; translated from French as ``A table for composing minuets and trios to infinity, by playing with two dice"). \\
 
@@ -154,12 +160,12 @@ The Rules provided in {\em Musikalisches W\"{u}rfelspiel} generate MDG minuets c
 The following Rules are followed for generating each minuet:
 \begin{enumerate}
 	\item [1.] For each measure from the first to the 16th, two dice are tossed and the sum of the two faces that come up are obtained.  Hence, 16 two-dice tosses (with possible outcomes from the set \{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\}, one two-dice toss for each measure, are needed to generate a minuet.   
-	\item [2.] Table~\ref{fig:0tab1} is then used to determine which measure number from the Table of Measures (Figures~\ref{fig:meas1} to \ref{fig:meas4}) is to be used for obtaining the notes for the particular measure of the minuet corresponding to the outcome of the two-dice toss.  The possible outcomes of a two-dice toss (2 to 12) are given on the left-hand side of Table~\ref{fig:0tab1}, while the measure numbers of the minuet-to-be-generated are given on the top of that table.
+	\item [2.] Table~\ref{fig:0tab1} is then used to determine which measure number from the Table of Measures (Figures~\ref{fig:meas1} to \ref{fig:meas4}) is to be used for obtaining the notes for the particular measure of the minuet corresponding to the outcome of the two-dice toss.  The possible outcomes of a two-dice toss (2 to 12) are given (stub items) on the left-hand side of Table~\ref{fig:0tab1}, while the measure numbers of the minuet-to-be-generated are given on the top of that table (captions or column  headings).
 	\item [3.]  For example, suppose for measure 1, the outcome of the two-dice toss is 5.  If we now look for measure number 1 at the top of Table~\ref{fig:0tab1} and for the outcome 5 on the left-hand side of that table, we obtain 40 as the measure number of the Table of Measures (Figures~\ref{fig:meas1} to \ref{fig:meas4}) to be used for obtaining the notes to be played for the first measure of the minuet to be generated.  An outcome of 11 for the two-dice toss for measure nine (9) of the minuet to be constructed leads us to obtain the notes from measure 102 of the Table of Measures.
 \end{enumerate}   
 
 
-\subsection{Table for finding Measure Number from Table of Measures}
+\subsection{Table for finding Measure Number from Table of Measures}\label{tableFind}
 The table given here (Table~\ref{fig:0tab1}) combines the two tables given on page 2 of {\it Musikalisches W\"{u}rfelspiel K. 516f (1787)} but the contents are exactly as given there.  The leftmost column contains the possible two-dice outcomes while the topmost row contains the measure number for the MDG minuet to be generated.
 
 \begin{table}[H]
@@ -171,6 +177,8 @@ The table given here (Table~\ref{fig:0tab1}) combines the two tables given on pa
 	\caption{Measure number to be looked-up in the Table of Measures (see Figures~\ref{fig:meas1}, \ref{fig:meas2}, \ref{fig:meas3}, and \ref{fig:meas4}) corresponding to each two-dice outcome per measure of the minuet.}
 	\label{fig:0tab1}
 \end{table}
+
+Although the body of Table~\ref{fig:0tab1} includes $11*16 = 176$ measure numbers, the Table of Measures (Figures~\ref{fig:meas1} to \ref{fig:meas4}) contains only 157 different measures.  This is so since in Table~\ref{fig:0tab1}: a) except for measures 8 and 16, there are 11 choices (listed below each column) for each of the 16 measures (the captions of the table), giving $11*14=154$ different choices for these 14 measures; b) the 11 choices under measure 8 are all the same for all dice outcomes (although the first pass is different from the repeat, e.g., measures 30 and 81 in the Table of Measures); and, c) there are only two different choices for the last measure (measure 16) with only the dice outcome of sum 11 (measure 78 in Table~\ref{fig:0tab1} and Figure~\ref{fig:meas2}) being assigned a different set of notes from the 10 other dice outcomes (so the total number of different measures is $11*14 + 1 + 2 = 157$).
 
 \nopagebreak[4]
 \subsection{Table of Measures}
@@ -225,19 +233,19 @@ ${}_{}$\\
 \section{Related Links}
 The following are very interesting sites in that they allow the online rendering of MDGs:
 \begin{itemize}
-	\item  \hyperref{https://marian-aldenhoevel.de/mozart/}{}{}{Mozart} - A site maintained by Marian Aldenh\"{o}vel allows the visitor to generate a MDG (user-specified or randomly-generated) and the corresponding audio ({\tt midi, wav}) and image files ({\tt pdf, png}) based on {\em Musikalisches W\"{u}rferspiel, K.\ 516f}.
+	\item  \href{https://marian-aldenhoevel.de/mozart/}{Mozart} - A site maintained by Marian Aldenh\"{o}vel allows the visitor to generate a MDG (user-specified or randomly-generated) and the corresponding audio ({\tt midi, wav}) and image files ({\tt pdf, png}) based on {\em Musikalisches W\"{u}rferspiel, K.\ 516f}.
 	
-	\item \hyperref{https://opus-infinity.org}{}{}{Opus Infinity} - Collaborative work of Robbert Harms, Hein Moors, and Suus van Petegem whose goal is to unravel the mystery behind the tables used for generating MDGs.  Site visitors can generate MDGs based on works of Kirnberger, Mozart, Stadler/Haydn, and Bach.  Corresponding audio files ({\tt mid, ogg,} and/or {\tt mp3}) and image files ({\tt pdf} or {\tt png}) are also made available for listening, viewing, or downloading.
+	\item \href{https://opus-infinity.org}{Opus Infinity} - Collaborative work of Robbert Harms, Hein Moors, and Suus van Petegem whose goal is to unravel the mystery behind the tables used for generating MDGs.  Site visitors can generate MDGs based on works of Kirnberger, Mozart, Stadler/Haydn, and Bach.  Corresponding audio files ({\tt mid, ogg,} and/or {\tt mp3}) and image files ({\tt pdf} or {\tt png}) are also made available for listening, viewing, or downloading.
 	
-	\item  \hyperref{http://sunsite.univie.ac.at/Mozart/dice/}{}{}{Mozart} - A site maintained by John Chuang that allows the site visitor to generate MDGs based on the work of Stadler/Haydn.
+	\item  \href{http://sunsite.univie.ac.at/Mozart/dice/}{Mozart} - A site maintained by John Chuang that allows the site visitor to generate MDGs based on the work of Stadler/Haydn.
  	
- 	\item \hyperref{http://www.amaranthpublishing.com/MozartDiceGame.htm}{}{}{\tt mozart.zip} -  This is a Windows software (\textcopyright 1995 VisionSoft) by John Chuang and Stephen Goodwin that generates MDG based on input from user and is available for {\it free} from  \hyperref{http://www.amaranthpublishing.com/MozartDiceGame.htm}{}{}{Amaranth Publishing}.  
+ 	\item \href{http://www.amaranthpublishing.com/MozartDiceGame.htm}{\tt mozart.zip} -  This is a Windows software (\textcopyright 1995 VisionSoft) by John Chuang and Stephen Goodwin that generates MDG based on input from user and is available for {\it free} from  \href{http://www.amaranthpublishing.com/MozartDiceGame.htm}{Amaranth Publishing}.  
  	
- 	\item \hyperref{(http://www.asahi-net.or.jp/\~rb5h-ngc/e/k516f.htm}{}{}{``Mozart - Musical Game in C K. 516f,"}	Mozart Studies Online - The site of Hideo Noguchi that offers an explanation linking {\em Musikalisches W\"{u}rferspiel, K.\ 516f}, and  {\em K.\ 294d (K.\ Anh.\ C 30.01)}. 
+ 	\item \href{(http://www.asahi-net.or.jp/\~rb5h-ngc/e/k516f.htm}{``Mozart - Musical Game in C K. 516f,"}	Mozart Studies Online - The site of Hideo Noguchi that offers an explanation linking {\em Musikalisches W\"{u}rferspiel, K.\ 516f}, and  {\em K.\ 294d (K.\ Anh.\ C 30.01)}. 
 \end{itemize}
 
 \section{Acknowledgments}
-My sincerest gratitude to Chris Walshaw et al. for the \hyperref{http://www.abcnotation.com/}{}{}{ABC music notation}; Jean-Francois Moine for \hyperref{http://moinejf.free.fr/}{}{}{\tt abcm2ps} and the accompanying examples, templates, and pointers for the appropriate use of these resources; Guido Gonzato for the \hyperref{http://abcplus.sourceforge.net/}{}{}{ABC Plus Project} and the \hyperref{http://abcplus.sourceforge.net/#abcMIDI}{}{}{{\tt abcmidi} resources} available there, more especially for the ABC resource book {\em Making Music with ABC 2}; James R. Allwright and Seymour Shlien for \hyperref{http://abc.sourceforge.net/abcMIDI}{}{}{\tt abcmidi} source and binaries; \hyperref{https://artifex.com/}{}{}{Artifex, Inc.} for Ghostscript v.9.06 (includes the {\tt ps2pdf} converter); \hyperref{https://www.inkscape.org/}{}{}{Inkscape v.0.48.5} for the tool for converting SVGs to PDFs for inclusion into \LaTeX\ documents; and \hyperref{https://tex.stackexchange.com/users/632/martin-h}{}{}{\tt User:Martin H} for his \hyperref{https://tex.stackexchange.com/questions/2099/how-to-include-svg-diagrams-in-latex}{}{}{reply} to a TeX/LaTeX Stack Exchange question on including SVGs into \LaTeX\ documents. Special thanks also to the \hyperref{http://imslp.org/}{}{}{International Music Score Library Project (IMSLP)} for making available the score for {\em Musikalisches W\"{u}rfelspiel, K.516f} and \hyperref{http://www.amaranthpublishing.com/MozartDiceGame.htm}{}{}{Amaranth Publishing} for a copy of {\tt mozart.zip}. Ditto to Machtelt Garrels for the book \hyperref{http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html}{}{}{Bash Guide for Beginners}, Vivek Gite for the book \hyperref{http://www.freeos.com/guides/lsst/}{}{}{Linux Script Shell Tutorial}, and Steve Parker for the \hyperref{http://steve-parker.org/sh/cheatsheet.pdf}{}{}{Unix/Linux Shell Cheatsheet}. John Fogarty's GitHub Site: \hyperref{https://github.com/jfogarty/latex-createspace-bookcover}{}{}{Latex CreateSpace BookCover} and Peter Wilson's reply in TeX/LaTeX Stack Exchange on \hyperref{https://tex.stackexchange.com/questions/17579/how-can-i-design-a-book-cover}{}{}{designing a book cover}, were sources of ideas, information, and materials for creating the book cover and title page, thanks to both of them; \hyperref{http://www.libreoffice.org/}{}{}{LibreOffice Calc} for its use in the image creation of the book cover.  Many thanks, too, to the \hyperref{https://www.debian.org}{}{}{Debian Project} for the Debian 8 (Jessie) GNU/Linux OS, \hyperref{http://www.tug.org/texlive/}{}{}{TeXLive} for providing the \TeX\ distribution,  and \hyperref{https://github.com}{}{}{GitHub} for its generosity in providing space for \hyperref{https://github.com/justineuro/mdgBookSVG\_1}{}{}{the project}.  
+My sincerest gratitude to Chris Walshaw et al. for the \href{http://www.abcnotation.com/}{ABC music notation}; Jean-Francois Moine for \href{http://moinejf.free.fr/}{\tt abcm2ps} and the accompanying examples, templates, and pointers for the appropriate use of these resources; Guido Gonzato for the \href{http://abcplus.sourceforge.net/}{ABC Plus Project} and the \href{http://abcplus.sourceforge.net/#abcMIDI}{{\tt abcmidi} resources} available there, more especially for the ABC resource book {\em Making Music with ABC 2}; James R. Allwright and Seymour Shlien for \href{http://abc.sourceforge.net/abcMIDI}{\tt abcmidi} source and binaries; \href{https://artifex.com/}{Artifex, Inc.} for Ghostscript v.9.06 (includes the {\tt ps2pdf} converter); \href{https://www.inkscape.org/}{Inkscape v.0.48.5} for the tool for converting SVGs to PDFs for inclusion into \LaTeX\ documents; and \href{https://tex.stackexchange.com/users/632/martin-h}{\tt User:Martin H} for his \href{https://tex.stackexchange.com/questions/2099/how-to-include-svg-diagrams-in-latex}{reply} to a TeX/LaTeX Stack Exchange question on including SVGs into \LaTeX\ documents. Special thanks also to the \href{http://imslp.org/}{International Music Score Library Project (IMSLP)} for making available the score for {\em Musikalisches W\"{u}rfelspiel, K.516f} and \href{http://www.amaranthpublishing.com/MozartDiceGame.htm}{Amaranth Publishing} for a copy of {\tt mozart.zip}. Ditto to Machtelt Garrels for the book \href{http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html}{Bash Guide for Beginners}, Vivek Gite for the book \href{http://www.freeos.com/guides/lsst/}{Linux Script Shell Tutorial}, and Steve Parker for the \href{http://steve-parker.org/sh/cheatsheet.pdf}{Unix/Linux Shell Cheatsheet}. John Fogarty's GitHub Site: \href{https://github.com/jfogarty/latex-createspace-bookcover}{Latex CreateSpace BookCover} and Peter Wilson's reply in TeX/LaTeX Stack Exchange on \href{https://tex.stackexchange.com/questions/17579/how-can-i-design-a-book-cover}{designing a book cover}, were sources of ideas, information, and materials for creating the book cover and title page, thanks to both of them; \href{http://www.libreoffice.org/}{LibreOffice Calc} for its use in the image creation of the book cover.  Many thanks, too, to the \href{https://www.debian.org}{Debian Project} for the Debian 8 (Jessie) GNU/Linux OS, \href{http://www.tug.org/texlive/}{TeXLive} for providing the \TeX\ distribution,  and \href{https://github.com}{GitHub} for its generosity in providing space for \href{https://github.com/justineuro/mdgBookSVGKit}{the project}.  
 
 \newpage
 \section{Selected Minuets}
@@ -248,7 +256,7 @@ My sincerest gratitude to Chris Walshaw et al. for the \hyperref{http://www.abcn
 }	
 
 \section{License}
-This work by I Am The Author, based on work of J.L.A. Uro at  \url{https://github.com/justineuro/mdgBookSVG\_1}, is licensed under a Creative Commons Public Domain International License.
+This work by I Am The Author, based on work of J.L.A. Uro at  \url{https://github.com/justineuro/mdgBookSVGKit}, is licensed under a Creative Commons Public Domain International License.
 
 \bibliographystyle{plainnat}
 \bibliography{mdg1}
