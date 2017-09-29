@@ -6,10 +6,10 @@ This folder contains materials that allow the user to author a book containing a
 
 To download an example of a generated book, simply right-click (then "Save Link As ...") on the following image:
 
-[![Front Cover](./mdgBookSVGv1-tit-125.jpg)](https://justineuro.github.io/justineuro/mdgBookSVG_1/res/mdgBookSVGv1.pdf)
+[![Front Cover](./mdgBookSVGv1-tit-125.jpg)](https://justineuro.github.io/mdgBookSVG_1/res/mdgBookSVGv1.pdf)
 
 (**Note**: To enable the MIDI audio links in the book, download 
-[mdgBookSVG_1-midi.zip](https://justineuro.github.io/justineuro/mdgBookSVG_1-midi.zip) and unzip in that directory (of your computer) that contains the book, i.e., the book and 
+[mdgBookSVG_1-midi.zip](https://justineuro.github.io/mdgBookSVG_1-midi.zip) and unzip in that directory (of your computer) that contains the book, i.e., the book and 
 midi files have to be in the same directory).
 
 Alternatively, you may [download](https://github.com/justineuro/mdgBookSVG_1/archive/master.zip) or [clone](https://github.com/justineuro/mdgBookSVG_1.git) this project and access the book (and `midi` files, among others) from the [`res`](./res) folder.
