@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'abcmdg-k516f003.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{549.69bp}%
+    \setlength{\unitlength}{515.325bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,59 +50,67 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.21900071)%
-    \put(0,0){\includegraphics[width=\unitlength]{abcmdg-k516f003.pdf}}%
-    \put(0.0422056,1.20387855){\makebox(0,0)[lb]{\smash{89}}}%
-    \put(0.13403919,1.19514635){\makebox(0,0)[lb]{\smash{90}}}%
-    \put(0.27186232,1.19951245){\makebox(0,0)[lb]{\smash{91}}}%
-    \put(0.45014463,1.19514635){\makebox(0,0)[lb]{\smash{92}}}%
-    \put(0.55027377,1.19514635){\makebox(0,0)[lb]{\smash{93}}}%
-    \put(0.63774126,1.19951245){\makebox(0,0)[lb]{\smash{94}}}%
-    \put(0.81602361,1.19951245){\makebox(0,0)[lb]{\smash{95}}}%
-    \put(0.90363656,1.19514635){\makebox(0,0)[lb]{\smash{96}}}%
-    \put(0.29252853,1.11044407){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.29252853,0.98528261){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.65840743,1.11044407){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.65840743,0.98528261){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.0422056,0.93609127){\makebox(0,0)[lb]{\smash{97}}}%
-    \put(0.16285544,0.92735907){\makebox(0,0)[lb]{\smash{98}}}%
-    \put(0.28190434,0.92735907){\makebox(0,0)[lb]{\smash{99}}}%
-    \put(0.36660664,0.93172517){\makebox(0,0)[lb]{\smash{100}}}%
-    \put(0.54197821,0.92735907){\makebox(0,0)[lb]{\smash{101}}}%
-    \put(0.66102716,0.93172517){\makebox(0,0)[lb]{\smash{102}}}%
-    \put(0.76363045,0.955011){\makebox(0,0)[lb]{\smash{103}}}%
-    \put(0.8679801,0.92735907){\makebox(0,0)[lb]{\smash{104}}}%
-    \put(0.39134786,0.84265677){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.39134786,0.71749532){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.0422056,0.67849153){\makebox(0,0)[lb]{\smash{105}}}%
-    \put(0.15019374,0.66975934){\makebox(0,0)[lb]{\smash{106}}}%
-    \put(0.26167476,0.67412543){\makebox(0,0)[lb]{\smash{107}}}%
-    \put(0.43879279,0.66975934){\makebox(0,0)[lb]{\smash{108}}}%
-    \put(0.52305846,0.68722373){\makebox(0,0)[lb]{\smash{109}}}%
-    \put(0.64676455,0.68431299){\makebox(0,0)[lb]{\smash{110}}}%
-    \put(0.77905729,0.68431299){\makebox(0,0)[lb]{\smash{111}}}%
-    \put(0.863323,0.66975934){\makebox(0,0)[lb]{\smash{112}}}%
-    \put(0.28641598,0.58505703){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.28641598,0.45989558){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.0422056,0.4165257){\makebox(0,0)[lb]{\smash{113}}}%
-    \put(0.11613819,0.4077935){\makebox(0,0)[lb]{\smash{114}}}%
-    \put(0.20244138,0.4077935){\makebox(0,0)[lb]{\smash{115}}}%
-    \put(0.3278939,0.4077935){\makebox(0,0)[lb]{\smash{116}}}%
-    \put(0.45349195,0.4077935){\makebox(0,0)[lb]{\smash{117}}}%
-    \put(0.59626334,0.4077935){\makebox(0,0)[lb]{\smash{118}}}%
-    \put(0.73015703,0.4165257){\makebox(0,0)[lb]{\smash{119}}}%
-    \put(0.85575508,0.42962399){\makebox(0,0)[lb]{\smash{120}}}%
-    \put(0.0422056,0.22296205){\makebox(0,0)[lb]{\smash{121}}}%
-    \put(0.12472484,0.21422986){\makebox(0,0)[lb]{\smash{122}}}%
-    \put(0.24100857,0.21422986){\makebox(0,0)[lb]{\smash{123}}}%
-    \put(0.41710781,0.22150669){\makebox(0,0)[lb]{\smash{124}}}%
-    \put(0.49948152,0.22150669){\makebox(0,0)[lb]{\smash{125}}}%
-    \put(0.60659645,0.20986376){\makebox(0,0)[lb]{\smash{126}}}%
-    \put(0.72855608,0.21422986){\makebox(0,0)[lb]{\smash{127}}}%
-    \put(0.90465533,0.20986376){\makebox(0,0)[lb]{\smash{128}}}%
-    \put(0.26560425,0.12516145){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.26560425,-0){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.75315179,0.12516145){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.75315179,-0){\makebox(0,0)[lb]{\smash{1.}}}%
+  \begin{picture}(1,1.21902288)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{abcmdg-k516f003.pdf}}%
+    \put(0.04220637,1.20390045){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{89}\end{tabular}}}}%
+    \put(0.13404163,1.19516809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{90}\end{tabular}}}}%
+    \put(0.27186727,1.19953427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{91}\end{tabular}}}}%
+    \put(0.45015282,1.19516809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{92}\end{tabular}}}}%
+    \put(0.55028378,1.19516809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{93}\end{tabular}}}}%
+    \put(0.63775287,1.19953427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{94}\end{tabular}}}}%
+    \put(0.81603846,1.19953427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{95}\end{tabular}}}}%
+    \put(0.903653,1.19516809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{96}\end{tabular}}}}%
+    \put(0.29253386,1.11046427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.29253386,0.98530054){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0.65841941,1.11046427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.65841941,0.98530054){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{abcmdg-k516f003.pdf}}%
+    \put(0.04220637,0.9361083){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{97}\end{tabular}}}}%
+    \put(0.1628584,0.92737595){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{98}\end{tabular}}}}%
+    \put(0.28190947,0.92737595){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{99}\end{tabular}}}}%
+    \put(0.36661331,0.93174212){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{100}\end{tabular}}}}%
+    \put(0.54198807,0.92737595){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{101}\end{tabular}}}}%
+    \put(0.66103919,0.93174212){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{102}\end{tabular}}}}%
+    \put(0.76364434,0.95502838){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{103}\end{tabular}}}}%
+    \put(0.86799589,0.92737595){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{104}\end{tabular}}}}%
+    \put(0.39135498,0.8426721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.39135498,0.71750837){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{abcmdg-k516f003.pdf}}%
+    \put(0.04220637,0.67850387){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{105}\end{tabular}}}}%
+    \put(0.15019647,0.66977152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{106}\end{tabular}}}}%
+    \put(0.26167952,0.6741377){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{107}\end{tabular}}}}%
+    \put(0.43880077,0.66977152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{108}\end{tabular}}}}%
+    \put(0.52306798,0.68723623){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{109}\end{tabular}}}}%
+    \put(0.64677632,0.68432544){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{110}\end{tabular}}}}%
+    \put(0.77907146,0.68432544){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{111}\end{tabular}}}}%
+    \put(0.86333871,0.66977152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{112}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{abcmdg-k516f003.pdf}}%
+    \put(0.28642119,0.58506768){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.28642119,0.45990394){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{abcmdg-k516f003.pdf}}%
+    \put(0.04220637,0.41653327){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{113}\end{tabular}}}}%
+    \put(0.1161403,0.40780092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{114}\end{tabular}}}}%
+    \put(0.20244506,0.40780092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{115}\end{tabular}}}}%
+    \put(0.32804542,0.40780092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{116}\end{tabular}}}}%
+    \put(0.4535002,0.40780092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{117}\end{tabular}}}}%
+    \put(0.59627419,0.40780092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{118}\end{tabular}}}}%
+    \put(0.73017032,0.41653327){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{119}\end{tabular}}}}%
+    \put(0.85577065,0.4296318){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{120}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{abcmdg-k516f003.pdf}}%
+    \put(0.04220637,0.22296611){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{121}\end{tabular}}}}%
+    \put(0.12472711,0.21423375){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{122}\end{tabular}}}}%
+    \put(0.24101296,0.21423375){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{123}\end{tabular}}}}%
+    \put(0.41711539,0.22151071){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{124}\end{tabular}}}}%
+    \put(0.4994906,0.22151071){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{125}\end{tabular}}}}%
+    \put(0.60660748,0.20986758){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{126}\end{tabular}}}}%
+    \put(0.72856933,0.21423375){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{127}\end{tabular}}}}%
+    \put(0.90467179,0.20986758){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{128}\end{tabular}}}}%
+    \put(0.26560908,0.12516373){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.26560908,0){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0.7531655,0.12516373){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.7531655,0){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{abcmdg-k516f003.pdf}}%
   \end{picture}%
 \endgroup%

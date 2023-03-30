@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'abcmdg-k516f001.pdf' (pdf, eps, ps)
 %%
@@ -35,8 +35,10 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{553.037875bp}%
+    \setlength{\unitlength}{518.47300781bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,63 +50,75 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.27970666)%
-    \put(0,0){\includegraphics[width=\unitlength]{abcmdg-k516f001.pdf}}%
-    \put(0.5002189,1.26197505){\makebox(0,0)[b]{\smash{Musikalisches W\"{u}rfelspiel, K.516f}}}%
-    \put(0.5002189,1.2344905){\makebox(0,0)[b]{\smash{[Source: \url{http://imslp.org/wiki/Musikalisches\_W\%C3\%BCrfelspiel,\_K.516f\_(Mozart,\_Wolfgang\_Amadeus)}]}}}%
-    \put(0.99320501,1.2009304){\makebox(0,0)[rb]{\smash{attributed to W.A. Mozart}}}%
-    \put(0.09142231,1.16765962){\makebox(0,0)[lb]{\smash{= 111}}}%
-    \put(0.15058644,1.15898029){\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.2762921,1.16331996){\makebox(0,0)[lb]{\smash{3}}}%
-    \put(0.37162013,1.15898029){\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.48170301,1.15898029){\makebox(0,0)[lb]{\smash{5}}}%
-    \put(0.66237774,1.15898029){\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.75770579,1.15898029){\makebox(0,0)[lb]{\smash{7}}}%
-    \put(0.89382663,1.15898029){\makebox(0,0)[lb]{\smash{8}}}%
-    \put(0.49804907,1.07479076){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.49804907,0.95038699){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.05135272,1.1134138){\makebox(0,0)[b]{\smash{8}}}%
-    \put(0.05135272,1.13077246){\makebox(0,0)[b]{\smash{3}}}%
-    \put(0.05135272,0.99826798){\makebox(0,0)[b]{\smash{8}}}%
-    \put(0.05135272,1.01562664){\makebox(0,0)[b]{\smash{3}}}%
-    \put(0.43280941,1.15608718){\makebox(0,0)[lb]{\smash{\em tr}}}%
-    \put(0.04195011,0.90438654){\makebox(0,0)[lb]{\smash{9}}}%
-    \put(0.13915863,0.89570721){\makebox(0,0)[lb]{\smash{10}}}%
-    \put(0.28641801,0.92029865){\makebox(0,0)[lb]{\smash{11}}}%
-    \put(0.4374384,0.90872621){\makebox(0,0)[lb]{\smash{12}}}%
-    \put(0.54245834,0.90727965){\makebox(0,0)[lb]{\smash{13}}}%
-    \put(0.64747824,0.89570721){\makebox(0,0)[lb]{\smash{14}}}%
-    \put(0.75249823,0.89570721){\makebox(0,0)[lb]{\smash{15}}}%
-    \put(0.87082645,0.89570721){\makebox(0,0)[lb]{\smash{16}}}%
-    \put(0.04195011,0.71199465){\makebox(0,0)[lb]{\smash{17}}}%
-    \put(0.16230352,0.70331532){\makebox(0,0)[lb]{\smash{18}}}%
-    \put(0.25112205,0.70331532){\makebox(0,0)[lb]{\smash{19}}}%
-    \put(0.35209163,0.70765499){\makebox(0,0)[lb]{\smash{20}}}%
-    \put(0.45378446,0.70331532){\makebox(0,0)[lb]{\smash{21}}}%
-    \put(0.58976068,0.70331532){\makebox(0,0)[lb]{\smash{22}}}%
-    \put(0.67857918,0.70331532){\makebox(0,0)[lb]{\smash{23}}}%
-    \put(0.8070333,0.70765499){\makebox(0,0)[lb]{\smash{24}}}%
-    \put(0.8275744,0.61912577){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.8275744,0.49472199){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.04195011,0.46463366){\makebox(0,0)[lb]{\smash{25}}}%
-    \put(0.17098286,0.45595432){\makebox(0,0)[lb]{\smash{26}}}%
-    \put(0.28858785,0.45595432){\makebox(0,0)[lb]{\smash{27}}}%
-    \put(0.40604813,0.45595432){\makebox(0,0)[lb]{\smash{28}}}%
-    \put(0.53233246,0.45595432){\makebox(0,0)[lb]{\smash{29}}}%
-    \put(0.64010084,0.46029399){\makebox(0,0)[lb]{\smash{30}}}%
-    \put(0.81397684,0.45595432){\makebox(0,0)[lb]{\smash{31}}}%
-    \put(0.90641168,0.45595432){\makebox(0,0)[lb]{\smash{32}}}%
-    \put(0.66064195,0.37176477){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.66064195,0.247361){\makebox(0,0)[lb]{\smash{1.}}}%
-    \put(0.04195011,0.21727266){\makebox(0,0)[lb]{\smash{33}}}%
-    \put(0.20758072,0.20859333){\makebox(0,0)[lb]{\smash{34}}}%
-    \put(0.31014152,0.20859333){\makebox(0,0)[lb]{\smash{35}}}%
-    \put(0.40358901,0.20859333){\makebox(0,0)[lb]{\smash{36}}}%
-    \put(0.53059657,0.21727266){\makebox(0,0)[lb]{\smash{37}}}%
-    \put(0.63330201,0.20859333){\makebox(0,0)[lb]{\smash{38}}}%
-    \put(0.75047301,0.21293299){\makebox(0,0)[lb]{\smash{39}}}%
-    \put(0.86778863,0.20859333){\makebox(0,0)[lb]{\smash{40}}}%
-    \put(0.05424583,0.12440378){\makebox(0,0)[lb]{\smash{2.}}}%
-    \put(0.05424583,-0){\makebox(0,0)[lb]{\smash{1.}}}%
+  \begin{picture}(1,1.26668766)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.5002189,1.24895605){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Musikalisches W\"{u}rfelspiel, K.516f\end{tabular}}}}%
+    \put(0.5002189,1.2214715){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{[Source: \url{http://imslp.org/wiki/Musikalisches\_W\%C3\%BCrfelspiel,\_K.516f\_(Mozart,\_Wolfgang\_Amadeus)}]}\end{tabular}}}}\%
+    \put(0.99320501,1.1879114){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\textit{attributed to W.A. Mozart}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{abcmdg-k516f001.pdf}}%
+    \put(0.09142231,1.15464062){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{= 111}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{abcmdg-k516f001.pdf}}%
+    \put(0.15058644,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{2}\end{tabular}}}}%
+    \put(0.2762921,1.15030096){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{3}\end{tabular}}}}%
+    \put(0.37162013,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{4}\end{tabular}}}}%
+    \put(0.48170301,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{5}\end{tabular}}}}%
+    \put(0.66237774,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{6}\end{tabular}}}}%
+    \put(0.75770579,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{7}\end{tabular}}}}%
+    \put(0.89382663,1.14596129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{8}\end{tabular}}}}%
+    \put(0.49804907,1.06177176){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.49804907,0.93736799){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{abcmdg-k516f001.pdf}}%
+    \put(0.05135272,1.1003948){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{8}\end{tabular}}}}%
+    \put(0.05135272,1.11775346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{3}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{abcmdg-k516f001.pdf}}%
+    \put(0.05135272,0.98524898){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{8}\end{tabular}}}}%
+    \put(0.05135272,1.00260764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{3}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{abcmdg-k516f001.pdf}}%
+    \put(0.43280941,1.14306818){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{\textit{tr}}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{abcmdg-k516f001.pdf}}%
+    \put(0.04195011,0.90438654){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{9}\end{tabular}}}}%
+    \put(0.13915863,0.89570721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{10}\end{tabular}}}}%
+    \put(0.28641801,0.89570721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{11}\end{tabular}}}}%
+    \put(0.4374384,0.90727965){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{12}\end{tabular}}}}%
+    \put(0.54245834,0.90727965){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{13}\end{tabular}}}}%
+    \put(0.64747824,0.89570721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{14}\end{tabular}}}}%
+    \put(0.75249823,0.89570721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{15}\end{tabular}}}}%
+    \put(0.87082645,0.89570721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{16}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{abcmdg-k516f001.pdf}}%
+    \put(0.04195011,0.71199465){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{17}\end{tabular}}}}%
+    \put(0.16230352,0.70331532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{18}\end{tabular}}}}%
+    \put(0.25112205,0.70331532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{19}\end{tabular}}}}%
+    \put(0.35209163,0.70765499){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{20}\end{tabular}}}}%
+    \put(0.45378446,0.70331532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{21}\end{tabular}}}}%
+    \put(0.58976068,0.70331532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{22}\end{tabular}}}}%
+    \put(0.67857918,0.70331532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{23}\end{tabular}}}}%
+    \put(0.8070333,0.70765499){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{24}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{abcmdg-k516f001.pdf}}%
+    \put(0.8275744,0.61912577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.8275744,0.49472199){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{abcmdg-k516f001.pdf}}%
+    \put(0.04195011,0.46463366){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{25}\end{tabular}}}}%
+    \put(0.17098286,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{26}\end{tabular}}}}%
+    \put(0.28858785,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{27}\end{tabular}}}}%
+    \put(0.40604813,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{28}\end{tabular}}}}%
+    \put(0.53233246,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{29}\end{tabular}}}}%
+    \put(0.64010084,0.46029399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{30}\end{tabular}}}}%
+    \put(0.81397684,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{31}\end{tabular}}}}%
+    \put(0.90641168,0.45595432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{32}\end{tabular}}}}%
+    \put(0.66064195,0.37176477){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.66064195,0.247361){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{abcmdg-k516f001.pdf}}%
+    \put(0.04195011,0.21727266){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{33}\end{tabular}}}}%
+    \put(0.20758072,0.20859333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{34}\end{tabular}}}}%
+    \put(0.31014152,0.20859333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{35}\end{tabular}}}}%
+    \put(0.40358901,0.20859333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{36}\end{tabular}}}}%
+    \put(0.53059657,0.21727266){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{37}\end{tabular}}}}%
+    \put(0.63330201,0.20859333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{38}\end{tabular}}}}%
+    \put(0.75047301,0.21293299){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{39}\end{tabular}}}}%
+    \put(0.86778863,0.20859333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{40}\end{tabular}}}}%
+    \put(0.05424583,0.12440378){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.\end{tabular}}}}%
+    \put(0.05424583,0){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{abcmdg-k516f001.pdf}}%
   \end{picture}%
 \endgroup%

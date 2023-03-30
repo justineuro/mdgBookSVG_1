@@ -63,7 +63,7 @@
 
 	sed -i.OLD 's/ü/\\"{u}/g' abcmdg-k516f001.pdf_tex 
 	sed -i.OLD '/http/s/_/\\_/g' abcmdg-k516f001.pdf_tex
-	sed -i.OLD '/http/s/%/\\%/g' abcmdg-k516f001.pdf_tex
+	sed -i.OLD '/http:\/\/imslp/s/%/\\%/g' abcmdg-k516f001.pdf_tex
 	sed -i.OLD 's/Source: http/Source: \\url{http/g' abcmdg-k516f001.pdf_tex
 	sed -i.OLD 's/Amadeus)\]/Amadeus)}\]/g' abcmdg-k516f001.pdf_tex
 	sed -i.OLD 's/\\smash{tr}/\\smash{\\em tr}/g' abcmdg-k516f00*.pdf_tex 
